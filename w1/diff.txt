@@ -1,0 +1,14 @@
+In line number 8 of your output:
+The output should be:
+@@cdefghijklmnopqrstuvwxyz
+  ^
+But your output is: 
+@@
+   ^
+
+Unmatched character details:
+The character in column 4 is supposed to be:
+  [c] ASCII code(99)
+but you printed
+  [Empty Line] ASCII code(0)
+

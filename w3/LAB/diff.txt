@@ -1,0 +1,14 @@
+In line number 57 of your output:
+The output should be:
+| Apples, Red/Golden D |    9.87 | No  |
+^
+But your output is: 
+==107289== Conditional jump or move depends on uninitialised value(s)
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [|] ASCII code(124)
+but you printed
+  [=] ASCII code(61)
+

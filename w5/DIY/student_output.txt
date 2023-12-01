@@ -1,0 +1,56 @@
+Script started on Sat 17 Jun 2023 11:29:30 AM EDT
+==63016== Memcheck, a memory error detector
+==63016== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==63016== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==63016== Command: ws
+==63016== 
+int ............
+0
+25
+0
+0
++= .............
+20
+45
+0
+0
+= ..............
+80
+0
+70
+double .........
+1
+4
+0
+char ...........
+D
+A
+X
+int += Mark ...
+140
+140
+test all values
+46: F, 0
+51: D, 1
+56: D, 1
+61: C, 2
+66: C, 2
+71: B, 3
+76: B, 3
+81: A, 4
+86: A, 4
+91: A, 4
+96: A, 4
+0: X, 0
+Average: 65 GPA: 2
+==63016== 
+==63016== HEAP SUMMARY:
+==63016==     in use at exit: 0 bytes in 0 blocks
+==63016==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==63016== 
+==63016== All heap blocks were freed -- no leaks are possible
+==63016== 
+==63016== For lists of detected and suppressed errors, rerun with: -s
+==63016== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sat 17 Jun 2023 11:29:31 AM EDT

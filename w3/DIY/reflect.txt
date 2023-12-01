@@ -1,0 +1,20 @@
+Reflect:
+
+Name: Tarun Thomas
+Section: NCC
+ID: 113605224
+
+
+I was able to learn how to interact with objects in the object-oriented language C++ during this course.I can create my first object using a class. 
+It is possible for it to contain variables and functions, sometimes known as member variables and member functions. Using the private and public 
+keywords, I can also define their scope. By default, it is designated private, but if the scope is changed to public, it can be accessed from both 
+inside and outside the class. I utilised the member functions as a query or modify mechanism in this workshop. A query function is a function that 
+uses a role like const to stop an object's state from changing. For example, the constant void display(). The member variable's value, however, can
+ be altered with the modify function. For example, I might assign the input value to a member variable or make the member variable empty. If you want
+ to access a member variable that has been publicly disclosed from outside the programme, use the symbol "." In this workshop, I was also able to use
+ a few of the member functions of iosream using cout. These member features were accessible to the general public and could be accessed through "."
+ When creating a table with a clean format, the functions setf, width, fill, and unsetf are helpful. The alignment or format is decided by the sets 
+set and unsetf. For example, cout.setf (ios::fixed), which holds the format, or cout.setf (ios::left), which is left alignment. Additionally, I can 
+set the spacing using the width. The empty space can also be filled with the desired characters up to the size I set with width by using the fill 
+command. Finally, it is necessary to release the alignment or format marked as unsetf.  Last but not least, the precision can also be used to
+ calculate the decimal places.

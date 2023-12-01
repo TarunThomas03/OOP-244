@@ -1,0 +1,11 @@
+REFLECT:
+
+Name    : Tarun Thomas 
+ID      : 113605224
+Section : NCC
+
+
+I was able to study and practise overload member operators utilising the overload skill I previously obtained through this session. In C++, I may overload several operators, and I frequently utilised Binary, assignment, and type conversion. By overloading operators instead of code where computational expressions can grow complex, I feel that overloading operators provide compact and understandable code. However, while overloading an operator, it is critical to understand what type of variable will arrive to the left of the operator, as well as which type of variable will operate with. The current object is the left operator. Account &operator+=(const double _into) or Account &operator=(Account &_move) are two examples. The type conversion was the most challemging aspect for me. 
+The reason for this is because I only knew how to temporarily change the type of variable via casting, but I never considered overloading the type to acquire the desired value. The crucial thing to remember when overloading type conversion is to make it a function of const type.  This is because the current object's value should not be modified.
+
+Finally, there is a function that helps the class but is not a member operator. This is known as the Helper function. Furthermore, if I pass friend keywords to the Helper function while defining the class, the Helper function has access to the class's secret members. Friends int operator+=(int &_value, const Mark &_add) is an example.By the end of this course, I felt confident that I could overload the operator while still coding it readable and elegantly. However, I was concerned that if I overloaded too many different types of operators for myself, it would make things more confusing when someone else viewed my code. I should be able to overload operators in a way that is explicit and understandable to others.

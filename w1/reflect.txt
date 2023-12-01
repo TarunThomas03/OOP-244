@@ -1,0 +1,14 @@
+                                                                                         DIY - REFLECT:
+
+ Name      : Tarun Thomas
+ Email     : tthomas60@myseneca.ca
+ Student ID: 113605224
+ Date      : 20-5-2023
+
+
+The workshop on creating custom string functions provided an opportunity to understand the inner workings of string manipulation. The process of implementing functions like strcmp, 
+strcpy, and strcat helped in identifying their underlying logic. Storing the return value of strcmp in a variable and using a flag to terminate loops when conditions are met were 
+important aspects of the implementation. Recognizing the need for null-termination in strings was also important for functions like strcpy and strcat. However, the strstr function 
+proved to be more challenging, requiring careful consideration of necessary functions and conditions. Overall, the workshop helped me to understand that strings always end with a null 
+value and that string functions operate until it is encountering this null value. Exploring the usage of nullptr, ASCII codes, and accessing array elements by address were additional 
+valuable lessons from the workshop.

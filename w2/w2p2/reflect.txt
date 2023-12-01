@@ -1,0 +1,24 @@
+                                                  Reflect:
+/*
+Name      : Tarun Thomas
+ Email     : tthomas60@myseneca.ca
+ Student ID: 113605224
+ Date      : 27-5-2023
+*/
+
+Through this workshop, I was able to understand the use of dynamic memory in C++. Using of dynamic memory allocation 
+is a waste of memory if the input is lesser than the declared size. Thus, using of new memory allocation eliminates
+ memory waste. It is also important to add an extra space after the string size for the null terminator. It is also 
+important to deallocate memory using delete or else it might cause a memory leak. Also, when deleting memory, it is 
+necessary to delete the memory in the reverse order of the order in which it was initially allocated. Overload occurs 
+when several functions use the same name as each other. This is possible in C++ because the compiler of C++ determines
+ that the functions are different if they have different parameters, even if they have the same name. In this workshop 
+I had to implement many overload functions. I used parameters like "bool load(Employee& emp)". I used outside parameters
+ rather than inside parameters (passed through a reference or pointer). When a parameter is received as an outside
+ parameter, the function can be used by copying the value of the parameter, as well as overwriting the value of the parameter.
+ This is due to direct access to the addresses of the parameters. Inside parameters keeps the value from being modified by using
+ the keyword “const”. 
+
+
+
+
